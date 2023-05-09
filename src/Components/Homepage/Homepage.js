@@ -1,5 +1,5 @@
 import React from "react";
-import "./Homepage.css"
+import "./Homepage.css";
 
 import Logo from "../../assets/icon/logo_hub.ico";
 import HomeImage from "../../assets/images/fon_home.jpg";
