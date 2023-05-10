@@ -1,10 +1,10 @@
 .sidebar {
-  flex: 0.3;
+  flex: 0.2;
   padding: 1rem 2rem;
 }
 
 .siderbar-logo {
-  font-size: 2rem !important;
+  font-size: 1.3rem !important;
   color: var(--color-primary);
   padding-left: 1rem;
   text-transform: uppercase;
