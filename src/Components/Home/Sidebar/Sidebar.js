@@ -3,7 +3,6 @@ import SidebarOption from "./SidebarOption/SidebarOption";
 import './Sidebar.css';
 
 import { 
-    Twitter,
     Home,
     ListAlt,
     Search,
@@ -14,12 +13,12 @@ import {
     BookmarkBorder
 } from '@mui/icons-material';
 import { Button } from '@mui/material';
+//import {Logo} from "https://cdn-icons-png.flaticon.com/512/2503/2503644.png";
 
 const Sidebar = () => {
     return(
         <div className="sidebar">
-            <Twitter className="siderbar_twitter-icon" />
-
+            <h2 className='siderbar-logo'>Content <span>hub</span></h2>
             <SidebarOption active Icon={Home} text="Home"/>
             <SidebarOption Icon={Search} text="Explore"/>
             <SidebarOption Icon={NotificationsNone} text="Notifications"/>

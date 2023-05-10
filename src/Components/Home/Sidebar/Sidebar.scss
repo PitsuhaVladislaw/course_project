@@ -3,10 +3,18 @@
     padding: 1rem 2rem;
 }
 
-.siderbar_twitter-icon {
-    font-size: 2.5rem !important;
+.siderbar-logo {
+    font-size: 2rem !important;
     color: var(--color-primary);
     padding-left: 1rem;
+    text-transform: uppercase;
+    span {
+        color: black;
+        outline: 3px solid black;
+        background-color: var(--color-secondary);
+        border-radius: 12px;
+        padding: 0 10px;
+    }
 }
 
 .sidebar_post {
