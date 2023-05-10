@@ -3,11 +3,12 @@ import "./SidebarOption.css";
 
 const SidebarOption = (props) => {
 
-    const { text, icon, active } = props;
+    const { active, Icon, text } = props;
     
     return(
-        <div className={`siderbar-option ${active && "sidebar-option_active"}`}>
-            SidebarOption
+        <div className={`sidebar-option ${active ? "sidebar-option_active" : ""}`}>
+            <Icon className="sidebar-option_icon" />
+            <h2>{text}</h2>
         </div>
     )
 }
