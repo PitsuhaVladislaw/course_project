@@ -5,6 +5,8 @@ import Logo from "../../assets/icon/logo_hub.ico";
 import HomeImage from "../../assets/images/fon_home.jpg";
 
 const Homepage = () => {
+    alert("Project has't already finished");
+
     return (
         <div className="homepage">
             <div className="homepage_top">
@@ -31,69 +33,6 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-            <footer>
-                <ul className="footer_list">
-                    <li className="footer_list_item">
-                        <a href="/">About</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Help Center</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Terms of Service</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Privacy Policy</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Cookie Policy</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Accessibility</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Ads Info</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Terms of Service</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Blog</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Status</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Careers</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Brand Resources</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Terms of Service</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Developers</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Directory</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Advertising</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Marketing</a>
-                    </li>
-                    <li className="footer_list_item">
-                        <a href="/">Content Hub for Business</a>
-                    </li>
-                </ul>
-                <p>
-                    {" "}
-                    <a href="/">Setting</a>
-                    <span>&copy; Content Hub</span>
-                </p>
-            </footer>
         </div>
     )
 }

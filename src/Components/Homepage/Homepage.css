@@ -85,33 +85,4 @@
 
 .btn_secondary:hover {
   background-color: var(--color-primary-2);
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.7rem;
-  align-items: center;
-}
-footer ul {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  list-style-type: none;
-}
-footer ul li {
-  margin: 0 0.5rem;
-}
-footer ul li a {
-  color: var(--grey-2);
-  text-decoration: none;
-}
-footer p {
-  font-size: 0.7rem;
-  color: var(--grey-2);
-}
-footer p a {
-  color: var(--grey-2);
-  text-decoration: none;
-  margin-right: 1rem;
 }/*# sourceMappingURL=Homepage.css.map */

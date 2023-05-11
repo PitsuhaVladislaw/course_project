@@ -5,6 +5,8 @@ import Feed from "./Feed/Feed";
 import Widgets from "./Widgets/Widgets";
 
 const Home = () => {
+    alert("Project has't already finished");
+
     return(
         <div className="home">
             {/*Sidebar*/}
