@@ -16,7 +16,11 @@
         "express": "^4.18.2",
         "graphql": "^16.6.0",
         "helmet": "^7.0.0",
+        "mongoose": "^7.1.1",
         "morgan": "^1.10.0",
         "nanoid": "^4.0.2"
+    },
+    "devDependencies": {
+        "@types/morgan": "^1.9.4"
     }
 }
