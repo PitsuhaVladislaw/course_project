@@ -13,9 +13,6 @@ const Feed = () => {
             <ContentBox />
             <Post />
             <Post />
-            <Post />
-            <Post />
-            <Post />
         </div>
     )
 }

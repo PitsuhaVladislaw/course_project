@@ -1,5 +1,5 @@
 const nanoid = require("nanoid");
-const User = require("./Modal/User");
+const User = require("./models/User");
 
 const register = async (_, input) => {
 
