@@ -10,16 +10,18 @@ import {
 } from "@mui/icons-material";
 
 const Post = () => {
-    
+
     let num_dow = 0;
     let num_shr = 0;
     let num_like = 0;
     let num_com = 0;
+    /*
     const like = document.getElementById("like");
     like.addEventListener("click", () => {
         num_like++;
+        return num_like;
     });
-
+    */
     return(
         <div className="post">
             <Avatar src="https://shapka-youtube.ru/wp-content/uploads/2021/03/mrachnaya-avatarka-dlya-parney.jpg" className="post_avatar" />
@@ -43,19 +45,19 @@ const Post = () => {
             <div className="post_footer">
                 <button class="post__but-icon" type="button">
                     <PublishOutlined fontSize="small"/>
-                    <input type="number" placeholder={num_dow} /> 
+                    <p>{num_dow}</p>
                 </button>
                 <button class="post__but-icon" type="button">
                     <Repeat fontSize="small"/>
-                    <input type="number" placeholder={num_shr} /> 
+                    <p>{num_shr}</p>
                 </button>
                 <button id="like" class="post__but-icon" type="button">
                     <img  src="https://www.svgrepo.com/show/220662/like.svg" alt="like" />
-                    <input type="number" placeholder={num_like} />
+                    <p>{num_like}</p>
                 </button>
                 <button id="comment" class="post__but-icon" type="button">
                     <ChatBubbleOutline fontSize="small"/>
-                    <input type="number" placeholder={num_com} /> 
+                    <p>{num_com}</p> 
                 </button>
             </div>
         </div>

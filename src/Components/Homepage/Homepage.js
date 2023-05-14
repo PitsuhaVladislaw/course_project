@@ -5,8 +5,6 @@ import Logo from "../../assets/icon/logo_hub.ico";
 import HomeImage from "../../assets/images/fon_home.jpg";
 
 const Homepage = () => {
-    alert("Project has't already finished");
-
     return (
         <div className="homepage">
             <div className="homepage_top">
