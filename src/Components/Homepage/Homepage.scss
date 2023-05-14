@@ -69,21 +69,6 @@
         transition: background-color 0.3s;
     }
 
-.user_block {
-    display: flex;
-    margin-bottom: 1rem;
-    input {
-        text-align: center;
-        margin-right: 1.5rem;
-        border-radius: 30px;
-        padding: 0.6rem 0;
-        font-weight: bold;
-        border: 1.5px solid var(--grey);
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-}
-
 .btn_primary {
     background-color: var(--while);
 }

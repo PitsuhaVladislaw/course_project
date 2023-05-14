@@ -3,6 +3,7 @@ import "./Homepage.css";
 
 import Logo from "../../assets/icon/logo_hub.ico";
 import HomeImage from "../../assets/images/fon_home.jpg";
+import UserForm from "./Login/Login";
 
 const Homepage = () => {
     return (
@@ -16,11 +17,9 @@ const Homepage = () => {
                     <h1>Welcome to Content Hub</h1>
                     <h2>Join us</h2>
                     <div className="homepage_top-right--auto_btns">
-                        <div className="user_block">
-                            <input type="text" placeholder="Username" />
-                            <input type="text" placeholder="Password" />
-                        </div>
-                        <button className="btn_secondary">Submit</button>
+                        
+                        <UserForm />
+
                         <button className="btn_primary">Sign up with Google</button>
                         <button className="btn_primary">Sign up with GitHub</button>
                         <p>
