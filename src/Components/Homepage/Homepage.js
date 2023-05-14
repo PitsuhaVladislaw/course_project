@@ -16,9 +16,13 @@ const Homepage = () => {
                     <h1>Welcome to Content Hub</h1>
                     <h2>Join us</h2>
                     <div className="homepage_top-right--auto_btns">
+                        <div className="user_block">
+                            <input type="text" placeholder="Username" />
+                            <input type="text" placeholder="Password" />
+                        </div>
+                        <button className="btn_secondary">Submit</button>
                         <button className="btn_primary">Sign up with Google</button>
                         <button className="btn_primary">Sign up with GitHub</button>
-                        <button className="btn_secondary">Sign up with email or phone</button>
                         <p>
                             By signing up, you agree to the <a href="/">Terms of Service</a> and {""}
                             <a href="/">Privacy Policy</a>, including {""}
