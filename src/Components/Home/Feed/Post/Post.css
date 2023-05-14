@@ -66,4 +66,18 @@
   justify-content: space-between;
   padding-top: 0.9rem;
   margin-left: 0.9rem;
+}
+
+.post__but-icon {
+  border: none;
+  background-color: white;
+}
+.post__but-icon img {
+  height: 20px;
+  width: 20px;
+}
+.post__but-icon p {
+  width: auto;
+  margin: 0;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=Post.css.map */

@@ -3,14 +3,25 @@ import "./Post.css";
 
 import { Avatar } from "@mui/material";
 import { 
-    ChatBubbleOutline, 
-    FavoriteBorderOutlined, 
+    ChatBubbleOutline,
     MoreHoriz, 
     PublishOutlined, 
     Repeat 
 } from "@mui/icons-material";
 
 const Post = () => {
+
+    let num_dow = 0;
+    let num_shr = 0;
+    let num_like = 0;
+    let num_com = 0;
+    /*
+    const like = document.getElementById("like");
+    like.addEventListener("click", () => {
+        num_like++;
+        return num_like;
+    });
+    */
     return(
         <div className="post">
             <Avatar src="https://shapka-youtube.ru/wp-content/uploads/2021/03/mrachnaya-avatarka-dlya-parney.jpg" className="post_avatar" />
@@ -28,14 +39,26 @@ const Post = () => {
                     for interaction with scripts on the server side.
                 </div>
                 <div className="post_media">
-                    <img src="https://img.freepik.com/premium-photo/male-programmer-is-writing-program-code-on-a-laptop-at-home_97716-1206.jpg" alt="post_picture" />
+                    <img width="10px" height="10px" src="https://img.freepik.com/premium-photo/male-programmer-is-writing-program-code-on-a-laptop-at-home_97716-1206.jpg" alt="post_picture" />
                 </div>
             </div>
             <div className="post_footer">
-                <ChatBubbleOutline fontSize="small"/>
-                <Repeat fontSize="small"/>
-                <FavoriteBorderOutlined fontSize="small"/>
-                <PublishOutlined fontSize="small"/>
+                <button class="post__but-icon" type="button">
+                    <PublishOutlined fontSize="small"/>
+                    <p>{num_dow}</p>
+                </button>
+                <button class="post__but-icon" type="button">
+                    <Repeat fontSize="small"/>
+                    <p>{num_shr}</p>
+                </button>
+                <button id="like" class="post__but-icon" type="button">
+                    <img  src="https://www.svgrepo.com/show/220662/like.svg" alt="like" />
+                    <p>{num_like}</p>
+                </button>
+                <button id="comment" class="post__but-icon" type="button">
+                    <ChatBubbleOutline fontSize="small"/>
+                    <p>{num_com}</p> 
+                </button>
             </div>
         </div>
     )

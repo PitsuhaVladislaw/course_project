@@ -11,6 +11,7 @@
 .homepage_top-left {
   height: 100vh;
   width: 50%;
+  background-size: contain;
 }
 .homepage_top-left img {
   height: 100%;
@@ -25,7 +26,6 @@
   align-items: flex-start;
   height: 100vh;
   padding-left: 2rem;
-  padding-top: 2rem;
 }
 .homepage_top-right img {
   height: 70px;
@@ -44,7 +44,7 @@
 .homepage_top-right--auto_btns {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .homepage_top-right--auto_btns button {
   width: 18rem;

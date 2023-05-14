@@ -69,3 +69,17 @@
     padding-top: 0.9rem;
     margin-left: 0.9rem;
 }
+
+.post__but-icon {
+    border: none;
+    background-color: white;
+    img {
+        height: 20px;
+        width: 20px;
+    }
+    p {
+        width: auto;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+}

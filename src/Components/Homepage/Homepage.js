@@ -3,10 +3,9 @@ import "./Homepage.css";
 
 import Logo from "../../assets/icon/logo_hub.ico";
 import HomeImage from "../../assets/images/fon_home.jpg";
+import UserForm from "./Login/Login";
 
 const Homepage = () => {
-    alert("Project has't already finished");
-
     return (
         <div className="homepage">
             <div className="homepage_top">
@@ -18,9 +17,11 @@ const Homepage = () => {
                     <h1>Welcome to Content Hub</h1>
                     <h2>Join us</h2>
                     <div className="homepage_top-right--auto_btns">
+                        
+                        <UserForm />
+
                         <button className="btn_primary">Sign up with Google</button>
                         <button className="btn_primary">Sign up with GitHub</button>
-                        <button className="btn_secondary">Sign up with email or phone</button>
                         <p>
                             By signing up, you agree to the <a href="/">Terms of Service</a> and {""}
                             <a href="/">Privacy Policy</a>, including {""}

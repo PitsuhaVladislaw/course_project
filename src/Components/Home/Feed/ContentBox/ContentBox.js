@@ -21,6 +21,7 @@ const ContentBox = () => {
                         <input type="text" placeholder="What's new?" />
                     </div>
                     <div className="contentbox-input">
+                        <button>Delete Account</button>
                         <div className="contentbox-icons">
                             <ImageOutlined className="contentbox-icon" />
                             <GifBoxOutlined className="contentbox-icon" />
