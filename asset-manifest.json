@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32245f2f.css",
+    "main.js": "/static/js/main.10d1dee8.js",
+    "static/js/787.a475d13e.chunk.js": "/static/js/787.a475d13e.chunk.js",
+    "static/media/fon_home.jpg": "/static/media/fon_home.f494edcb37b34ba4900c.jpg",
+    "static/media/logo_hub.ico": "/static/media/logo_hub.5106326bb61213c8b422.ico",
+    "index.html": "/index.html",
+    "main.32245f2f.css.map": "/static/css/main.32245f2f.css.map",
+    "main.10d1dee8.js.map": "/static/js/main.10d1dee8.js.map",
+    "787.a475d13e.chunk.js.map": "/static/js/787.a475d13e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32245f2f.css",
+    "static/js/main.10d1dee8.js"
+  ]
+}
