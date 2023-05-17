@@ -31,7 +31,7 @@ const UserForm = (props) => {
     */
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("http://localhost:5000/auth/login", {
+        fetch("http://localhost:8080/users/", {
             method: "post",
             headers: {
                 'Content-type': 'application/json; charset=UTF-8',
